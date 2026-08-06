@@ -48,7 +48,7 @@ AVG(star_rating) AS avg_rating
 FROM data_analyst_jobs
 WHERE review_count > 5000
 GROUP BY company
-ORDER BY avg_rating DESC; -- Q10. General Motors 4.2
+ORDER BY avg_rating DESC; -- Q10. General Motors, Unilever, Microsoft, Nike, Amex, Kaiser Permanente. All tied at 4.2
 
 SELECT DISTINCT title
 FROM data_analyst_jobs
@@ -73,6 +73,7 @@ AND days_since_posting > 21
 AND domain IS NOT NULL
 GROUP BY domain
 ORDER by hard_to_fill_jobs DESC; -- BONUS. Consulting & Business Services - 30, Internet & Software - 19, Health Care - 17.
+
 
 
 
