@@ -3,7 +3,7 @@ FROM data_analyst_jobs; -- Q1. 1793
 
 SELECT *
 FROM data_analyst_jobs
-LIMIT 10; -- Q2. XTO Land Data Analyst
+LIMIT 10; -- Q2. Exxon Mobile
 
 SELECT DISTINCT location
 FROM data_analyst_jobs
